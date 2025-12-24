@@ -1,0 +1,24 @@
+<html>
+<head>
+ <title>HTML,CSS and JS example</title>
+</head>
+<body>
+ <h2>WELOCME TO MY NEW WEB PAGE</h2>
+ <p>this is another example of the web page, used HTML, styled with CSS, and made interactive with JS </p>
+<button onclick="showMessage()">Click Me</button>
+<button onclick="sayHello()">HELLO</button>
+
+<script>
+ function showMessage() {
+     document.getElementById("message").innerHTML = "You clicked on the button!";
+ }
+
+ function sayHello() {
+     alert("Hello!");
+ }
+</script>
+
+<p id="message"></p>
+
+</body>
+</html>
